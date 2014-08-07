@@ -1,11 +1,12 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 url: http://oneleaf.me
-name: OneLeaf.me
+name: 一葉
 author: unblue
-email: fangby@163.com
+email: echo asewiurhvbdyqo | tr uhoqaieybwrsvd y1mofbnc3g@a6.
+github: uncleblue
 duoshuo: oneleaf
-pygments: true
+highlighter: pygments
 safe: true
 paginate: 20
-about: "about"
+about: "北風吹斷馬嘶聲，聒碎鄉心夢不成。<br> 滿目荒涼誰可語，知君何事淚縱橫。"

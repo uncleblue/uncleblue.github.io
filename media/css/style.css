@@ -4,6 +4,7 @@
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
 * @update 2011-12-20
+* @update by blue 2014-8-6
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -17,26 +18,29 @@ body{font-size:14px;word-spacing:1px;
 margin-right:auto;
 	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin: 0;border:none;outline:none;}
-a{color:#dd0000;text-decoration:none;}
+a{color:#bb0000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
 li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
-pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
-blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
-blockquote{margin:1em 0em;padding-left:1.5em;}
+blockquote{display:block;text-align:justify;border-left:5px solid #ddd;}
+blockquote{margin:1em 0em;padding:15px 20px;background-color:rgba(102,128,153,.05);}
 blockquote p{margin:0;padding:.5em 0;}
-/*blockquote, pre code {
+code{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4;border-radius:4px}
+pre code {
   background-color: #f8f8f8;
-  padding: 0 1em;
+  padding: 1em;
   border: 1px dashed #eee !important;
   border-color: #e0e0e0 !important;
+  margin:1em 0;
   font-size: 13px;
   line-height: 1.6;
   display: block;
-  overflow: auto; }*/
+  overflow: auto;
+  color:#000;
+}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:16px;line-height:24px;}
 .content h1{padding:.5em 0;}
@@ -63,8 +67,7 @@ h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-siz
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
 h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
 h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
-pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
-code{background-color:#D0D0D0;}
+/*pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}*/
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 

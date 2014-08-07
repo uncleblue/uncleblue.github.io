@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: 求其友聲
 layout: page
 comments: no
 ---
@@ -8,10 +8,8 @@ comments: no
 
 ----
 
-mail:
+`mail`:
 
-> {{ site.email }}
-
-github: 
-
-> [{{ site.github }}](http://github.com/{{ site.github }})
+```
+{{ site.email }}
+```
